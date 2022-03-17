@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-column: 3;
+    column-gap: 100px;
+    place-items: center;
+    row-gap: 20px;
+  }
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #1a24fb;
+  color: white;
+  font-weight: regular;
+  letter-spacing: 0.2rem;
+  font-size: 12px;
+
+  text-align: left;
+}
+
+.book-div {
+  position: relative;
+  padding: 40px;
+  height: 100%;
+}
+.book-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.book-contents {
+  border: #1a24fb solid 2px;
+  color: #1a24fb;
+  height: 90%;
+}
+
+.book-sub {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: regular;
+}
+
+.book-text {
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.book-btn {
+  height: 18px;
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+  background-color: white;
+  border: none;
+  color: #1a24fb;
+}
+
+.card-container {
+  max-width: 1280px;
+  place-items: center;
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  place-items: center;
+  row-gap: 20px;
+}
+
+.num {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  text-align: center;
+  color: #1a24fb;
+  font-size: 24px;
+}
